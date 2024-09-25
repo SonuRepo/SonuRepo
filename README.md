@@ -34,7 +34,7 @@ The process begins with the ingestion of raw data from a CSV file stored on GitH
 
 1. Begin by creating an Azure Data Factory workspace within the previously established resource group.
 2. After setting up the workspace, launch the Azure Data Factory Studio.
-3. Upload the Tokyo Olympics dataset from Kaggle to GitHub.
+3. Upload the Paris Olympics dataset from Kaggle to GitHub.
 Within the studio, initialize a new data integration pipeline.
 4. Now use the task Copy Data to move data efficiently between various supported sources and destinations.
 5. Configuring the Data Source with an HTTP template as we are using HTTP requests to get the data from the GitHub repo.
