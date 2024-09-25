@@ -63,11 +63,13 @@ Please refer to the notebook below for transformations and code mounting ADLS Ge
 ![App Screenshot](https://github.com/SonuRepo/paris_olympic_azure_project/blob/main/Images/storage_transformed_data.png)
 ![App Screenshot](https://github.com/SonuRepo/paris_olympic_azure_project/blob/main/Images/transformed_data_content.png)
 
+Refer to the information below for the transformations and code used to mount ADLS Gen2 to Databricks. [Paris-Olympic-Data-Transformation](https://github.com/SonuRepo/paris_olympic_azure_project/blob/main/Paris-Olympic-Data-Transformation.ipynb)
+
 
 ## Setting Up and Using Azure Synapse Analytics
 
 1. Creating a Synapse Analytics Workspace.
-2. Within Workspace navigate to the "Data" section, choose "Lake Database" and create a Database "ParisOlympicDB"
+2. Within Workspace navigate to the "Data" section, choose "Lake Database" and created a Database called "ParisOlympicDB"
 3. Create a Table from the Data Lake from the Transformed Data folder within your ADLS Gen2 storage.
 
 ![App Screenshot](https://github.com/SonuRepo/paris_olympic_azure_project/blob/main/Images/Synapse_database.png)
